@@ -209,41 +209,113 @@
     <div class="col">
       <ul class="nav nav-tabs" id="myTab" role="tablist">
         <li class="nav-item" role="presentation">
-          <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button"
-            role="tab" aria-controls="home" aria-selected="true">Luxo</button>
+          <button class="nav-link active" id="luxo-tab" data-bs-toggle="tab" data-bs-target="#luxo" type="button"
+            role="tab" aria-controls="luxo" aria-selected="true">Luxo</button>
         </li>
         <li class="nav-item" role="presentation">
-          <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile" type="button"
-            role="tab" aria-controls="profile" aria-selected="false">Executivo</button>
+          <button class="nav-link" id="executivo-tab" data-bs-toggle="tab" data-bs-target="#executivo" type="button"
+            role="tab" aria-controls="executivo" aria-selected="false">Executivo</button>
         </li>
         <li class="nav-item" role="presentation">
-          <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact" type="button"
-            role="tab" aria-controls="contact" aria-selected="false">Econômico</button>
+          <button class="nav-link" id="economico-tab" data-bs-toggle="tab" data-bs-target="#economico" type="button"
+            role="tab" aria-controls="economico" aria-selected="false">Econômico</button>
         </li>
       </ul>
       <div class="tab-content" id="myTabContent">
-        <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+        <div class="tab-pane fade show active" id="luxo" role="tabpanel" aria-labelledby="luxo-tab">
           <div class="display-6">
-              O máximo do luxo
+            O máximo do luxo
           </div>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae reprehenderit maiores culpa dolorem totam magnam possimus minima, aspernatur at doloribus!
-            <img src="assets/room1.jpg" alt="Quarto de Luxo" class="shadow mt-3 rounded img-fluid">
-          </div>
-          <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae reprehenderit maiores culpa dolorem totam magnam
+          possimus minima, aspernatur at doloribus!
+          <img src="assets/room1.jpg" alt="Quarto de Luxo" class="shadow mt-3 rounded img-fluid">
+        </div>
+        <div class="tab-pane fade" id="executivo" role="tabpanel" aria-labelledby="executivo-tab">
           <div class="display-6">
             Melhor custo benfício
           </div>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident maxime nam velit doloribus. Velit, voluptas modi eos ipsam aliquam dolorum.
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident maxime nam velit doloribus. Velit, voluptas
+          modi eos ipsam aliquam dolorum.
           <img src="assets/room2.jpg" alt="Quarto executivo" class="shadow mt-3 rounded img-fluid">
-          </div>
-          <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
+        </div>
+        <div class="tab-pane fade" id="economico" role="tabpanel" aria-labelledby="economico-tab">
           <div class="display-6">
             Somente o essencial
           </div>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officia asperiores facere quasi quisquam neque. Id, ab laborum! Natus, nobis fuga.
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officia asperiores facere quasi quisquam neque. Id,
+          ab laborum! Natus, nobis fuga.
           <img src="assets/room3.jpg" alt="Quarto econômico" class="shadow mt-3 rounded img-fluid">
-        </div>    
         </div>
+      </div>
+
+      <!-- Title and Subtitle (Passeios) -->
+      <div class="row mt-5">
+        <div class="col">
+          <div class="display-5">Passeios Incríveis</div>
+          Descubra os melhores passeios no seu destino!
+        </div>
+      </div>
+
+      <!-- Cards Section -->
+      <div class="row mb-3 justify-content-center gap-5">
+        <div class="card shadow p-0" style="width: 18rem;">
+          <img src="assets/balao.jpg" class="card-img-top"  alt="Passeio Balão">
+          <div class="card-body">
+            <h5 class="card-title">Passeio de Balão</h5>
+            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, quia.</p>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">A partir R$ 90,00</li>
+            <li class="list-group-item">Tire fotos increveis!</li>
+          </ul>
+          <div class="card-body">
+            <a href="#" class="btn btn-primary">Reserve já</a>
+          </div>
+        </div>
+        <div class="card shadow p-0" style="width: 18rem;">
+          <img src="assets/lancha.jpg" class="card-img-top" alt="Passeio de lancha">
+          <div class="card-body">
+            <h5 class="card-title">Passeio de Lancha</h5>
+            <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut, aliquid?</p>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">A partir de R$ 100,00</li>
+            <li class="list-group-item">Visite lugares secretos!</li>
+          </ul>
+          <div class="card-body">
+            <a href="#" class="btn btn-primary">Reserve já</a>
+          </div>
+        </div>
+        <div class="card shadow p-0" style="width: 18rem;">
+          <img src="assets/cavalo.jpg" class="card-img-top" alt="Passeio de cavalo">
+          <div class="card-body">
+            <h5 class="card-title">Passeio de Cavalo</h5>
+            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, dicta?</p>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">A partir de R$ 70,00</li>
+            <li class="list-group-item">Explore a natureza</li>
+          </ul>
+          <div class="card-body">
+            <a href="#" class="btn btn-primary">Reserve já</a>
+          </div>
+        </div>
+        <div class="card shadow p-0" style="width: 18rem;">
+          <img src="assets/bicicleta.jpg" class="card-img-top" alt="Passeio de bicicleta">
+          <div class="card-body">
+            <h5 class="card-title">Passeio de Bicicleta</h5>
+            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, deleniti.</p>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">A partir de R$ 40,00</li>
+            <li class="list-group-item">Trilhas para todos os gostos!</li>
+          </ul>
+          <div class="card-body">
+            <a href="#" class="btn btn-primary">Reserve já</a>
+          </div>
+        </div>
+      </div>
+
     </div>
   </div>
 
